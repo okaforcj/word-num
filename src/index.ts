@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { convertCommand } from "./commands/convertCommand";
-import { showCommand } from "./commands/showCommand";
+import { convertCommand } from "./commands/ConvertCommand";
+import { showCommand } from "./commands/ShowCommand";
 import { rootCommand } from "./program/rootCommand";
 
 const version = process.env.npm_package_version;

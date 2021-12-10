@@ -1,6 +1,5 @@
 import { LanguageInterface } from "../model/LanguageInterface";
 
-
 const to19 = [
   "",
   "One",
@@ -38,9 +37,9 @@ const tens = [
 
 const denom = ["Hundred", "Thousand", "Million"];
 
-export const English:LanguageInterface = {
-  zero:   "Zero",
+export const English: LanguageInterface = {
+  zero: "Zero",
   to19,
   tens,
-  denom
-}
+  denom,
+};

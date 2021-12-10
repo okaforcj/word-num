@@ -1,5 +1,4 @@
 import { InvalidArgumentError } from "commander";
-import { LanguageEnum } from "../model/LanguageEnum";
 import { shortLanguageCodeMapper } from "../model/LanguageMap";
 
 export const allowedIntParser = (value: string) => {
